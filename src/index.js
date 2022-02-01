@@ -52,5 +52,5 @@ app.get('/', requireAuth, (req, res) => {
 // })
 
 app.listen(process.env.PORT || 3000, () => {
-  console.log('Server running' + PORT);
+  // console.log('Server running' + PORT);
 });
